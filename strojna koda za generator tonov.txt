@@ -1,0 +1,48 @@
+tipka1: 
+	inp vh1
+	jze vmes1
+	jmp frekvenca1
+vmes1: 
+	jmp tipka2
+tipka2:  
+	inp vh2
+	jze vmes2 
+	jmp frekvenca2
+vmes2:  
+	jmp tipka3
+tipka3:  
+	inp vh3 
+	jze vmes3 
+	jmp frekvenca3
+vmes3: 
+	jmp tipka 4
+tipka4: 
+	inp vh4 
+	jze vmes4
+	jmp frekvenca4
+vmes4:
+	jmp tipka1
+
+frekvenca1: 
+	lda 1000
+	outp izh
+	jmp vmes1	
+frekvenca2: 
+	lda 8000
+	outp izh
+	jmp vmes2
+frekvenca3: 
+	lda 7000
+	outp izh
+	jmp vmes3
+frekvenca4: 
+	lda 12000
+	outp izh
+	jmp vmes4 
+	 
+vh1	di 0
+vh2     di 0 
+vh3     di 0 
+vh4     di 0 
+vsota	db 0 
+izh	di 1	
