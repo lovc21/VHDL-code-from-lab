@@ -1,3 +1,6 @@
-VHDL code of lab projects that i did for a course in Integrated circuits and design. 
-You can find more information of the projects on the website https://lniv.fe.uni-lj.si/b.html.
-The focus is on the generator tonov jakob, it is a project that i upgraded so it will display different frequencies and  tones.
+
+# VHDL Code for Lab Projects in Integrated Circuits and Design Course
+
+This repository contains the VHDL code for lab projects I completed during a course in Integrated Circuits and Design. For more information on these projects, please visit the course website: https://lniv.fe.uni-lj.si/b.html.
+
+The main focus of this repository is on the Generator Tonov Jakob project, which I upgraded to display different frequencies and tones.
